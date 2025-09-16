@@ -23,7 +23,13 @@ del number
 digit = 43333333333333
 word = "Результат: "
 print(word + str(digit), sep= '\n\n')
+name =  "Masha"
+print(f'Привет я {name=}')
+print(f'Привет я {name}')
 
+value = 21.5678
+
+print(f'{value:.2f}')
 
 
 
